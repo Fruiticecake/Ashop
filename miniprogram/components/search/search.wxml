@@ -1,0 +1,5 @@
+<!--components/search/search.wxml-->
+<view class="search">
+  <image src="../../images/搜索 (1).png"></image>
+  <input type="text" placeholder="请输入要搜索的商品"bindconfirm="search" confirm-type="done" ></input>
+</view>

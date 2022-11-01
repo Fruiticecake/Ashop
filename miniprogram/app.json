@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/food_shop_details/food_shop_details",
+    "pages/shop_car/shop_car"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fad0d0",
+    "navigationBarTitleText": "SZTU-EVERY",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

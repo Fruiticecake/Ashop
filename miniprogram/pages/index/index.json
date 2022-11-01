@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "details":"../../components/food_details/food_details"
+  }
+}

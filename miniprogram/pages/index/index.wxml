@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<navigator url="../../components/food_detaila/food_detaila">
+  food
+</navigator>

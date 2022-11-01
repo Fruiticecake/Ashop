@@ -1,0 +1,70 @@
+<!--components/product_details/product_details.wxml-->
+<!--标题-->
+<view class="container_up">
+  <view class="title">
+    <view class="title_left"></view>
+      <image src="../../images/text.png" ></image>
+    <view class="title_right">波客派
+      <!--details 留空-->  
+      <image src="../../images/i .png" alt="图片正在加载"></image>
+    </view>
+  </view>
+  <view class="introduce">公告: Fine！</view>
+</view>
+
+
+<!--搜索框
+<view class="search">
+  <image src="../../images/搜索 (1).png"></image>
+  <input type="text" placeholder="请输入要搜索的商品"bindconfirm="search" confirm-type="done" ></input>
+</view>
+-->
+
+
+<!--标签分类
+  <view class="tabs">
+    <view class="tabs_title">
+      <view 
+      wx:for="{{tabs}}" 
+      wx:key="id"
+      class="title_item {{item.isActive?'active':''}}" 
+      bindtap="handleItemTap"
+      data-index="{{index}}"
+      >{{item.title}}</view>
+    </view>
+  </view>
+-->
+<!--内容-->
+<view class="content">
+  <view class="content_item" wx:for="{{ware}}" wx:key="wareId">
+    <image class="content_left" src="../../images/i .png" alt=""></image>
+    <view class="content_right">
+      <view class="content_right_food_details">
+        <text class="food_name">{{item.wareName}}</text>
+        <text class="food_details">{{item.wareInfo}}</text>
+      </view>
+      <view class="food_prices">
+        <text style="font-weight: bold;">￥{{item.warePrice}}</text>
+        <view class="content_right_buy">
+          <button 
+          hover-class="button_style"
+          size="mini"
+          style="font-size:28rpx;font-weight:normal;"
+          bindtap="handleItemShop"
+          data-index="index" 
+          >购买</button>   
+        </view>    
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<!--购物车-->
+<view class="shop_car">
+  <view class="shop_car_2">
+    <navigator url="../../pages/shop_car/shop_car">
+      <image src="../../images/购物车空 (1).png" style="width:50rpx;height:50rpx;"></image>
+    </navigator>  
+  </view>
+</view>

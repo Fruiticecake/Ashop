@@ -1,0 +1,19 @@
+/* components/search/search.wxss */
+.search{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 50rpx;
+  align-items: center;
+  margin: 60rpx 60rpx 30rpx 60rpx;
+  padding: 0rpx 25rpx;
+  height: 75rpx;
+  box-shadow: 2px 1px 5px grey;
+  font-size: small;
+}
+
+.search image{
+  width: 35rpx;
+  height: 35rpx;
+  padding-right: 30rpx;
+}

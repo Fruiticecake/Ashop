@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tabs":"../../components/tabs/tabs",
+    "search":"../../components/search/search"
+  }
+}
